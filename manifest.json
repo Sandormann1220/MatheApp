@@ -1,7 +1,7 @@
 {
 	"short_name": "MatheApp",
   	"name": "Practivando las matemáticas",
-  	"start_url": "multiplication.html",
+  	"start_url": "index.html",
   	"background_color":"#ACD25B",
   	"display":"standalone",
   	"orientation":"portrait",
