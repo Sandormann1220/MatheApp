@@ -12,7 +12,7 @@ self.addEventListener('install', e => {
 			.then( cache => {
 
 				return cache.addAll([
-					'/',
+					//'/',
 					'multiplication.html',
 					'css/styles.css',
 					'js/app.js',
