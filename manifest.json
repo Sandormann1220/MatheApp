@@ -1,0 +1,10 @@
+{
+	"short_name": "MatheApp",
+  	"name": "Practivando las matemáticas",
+  	"start_url": "multiplication.html",
+  	"background_color":"#ACD25B",
+  	"display":"standalone",
+  	"orientation":"portrait",
+  	"theme_color":"#ACD25B",
+  	"description": "Aplicacción para practicar operaciones de nivel básico"
+}

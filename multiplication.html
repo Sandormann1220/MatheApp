@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multiplicación</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400&family=Raleway:ital,wght@0,500;1,500&display=swap" rel="stylesheet">	
+
+	<link rel="manifest" href="/manifest.json">
+
+</head>
+<body>
+	
+		<header>
+			<nav class="navbar">
+				<h1 class="navbar__title raleway">Practicando las multiplicaciones</h1>
+			</nav>
+		</header>
+
+	<main class="container">
+		<div class="wrapper">
+			<section class="pizarra">
+				<div class="pizarra__bco">
+
+
+					<span class="line_text" id="line_text"></span>
+					<span class="line_text2" id="line_text2"></span>
+					<h2 class="pizarra_title">Resuelve la siguiente multiplicación</h2>
+					
+					<div class="pizarra__display">
+
+						<p class="num"><span id="num__1"></span></p>	
+						<p class="num"><span class="signal">X </span><span id="num__2"></span></p>
+						
+						<div class="division"></div>
+						
+						<div class="input-group">
+							<input type="text" class="input" id="res__1">
+							<span class="multi"><input type="text" class="input" id="res__2"> 0</span>
+						</div>
+						
+						<div class="division"></div>
+						<div class="input-group">
+							<input type="text" class="input" id="result" placeholder="0">
+						</div>
+							
+					</div>
+				</div>
+				<div class="btn_group">
+						<button type="button" class="btn pizarra__btn" id="iniciar">Iniciar</button>
+						<button type="button" class="btn pizarra__btn" id="verificacion">Verificar mi resultado</button>
+						<button type="button" class="btn pizarra__btn" id="nuevaMulti">Nueva multiplicación</button>
+				</div>
+			</section>
+
+			<section class="cal__tabla">
+				<h2 class="cal__title">¿Qué tabla quieres calcular?</h2>
+				
+				<div class="wrapper_cal">
+					<input type="text" class="input input__cal" id="cal__tabla__num">
+					<button id="cal__btn" class="btn btn__cal">Crear</button>
+					<p id="tabla" class="tabla"></p>
+				</div>
+
+			</section>
+		</div>
+	</main>
+	
+	<script src="js/app.js"></script>
+	<script src="js/MathApp.js"></script>
+</body>
+</html>
