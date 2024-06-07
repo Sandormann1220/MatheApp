@@ -1,6 +1,6 @@
 {
 	"short_name": "MatheApp",
-  	"name": "Practivando las matemáticas",
+  	"name": "Practicando matemáticas",
   	"start_url": "index.html",
   	"background_color":"#ACD25B",
   	"display":"standalone",
