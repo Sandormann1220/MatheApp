@@ -1,10 +1,11 @@
 {
-	"short_name": "MatheApp",
-  	"name": "Practicando matemáticas",
-  	"start_url": "index.html",
-  	"background_color":"#ACD25B",
-  	"display":"standalone",
-  	"orientation":"portrait",
-  	"theme_color":"#ACD25B",
-  	"description": "Aplicacción para practicar operaciones de nivel básico"
+  "name": "MatheApp",
+  "short_name": "Practicando matemáticas",
+  "theme_color": "#acd25b",
+  "background_color": "#acd25b",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/index.html",
+  "description": "Aplicacción para practicar operaciones de nivel básico"
+
 }

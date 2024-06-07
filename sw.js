@@ -1,6 +1,6 @@
 //Variables del cache
 const STATIC_CACHE 		= 	'static_v2';
-const DYNAMIC_CACHE 	= 	'daynamic_v2';
+const DYNAMIC_CACHE 	= 	'dynamic_v2';
 const INMUTABLE_CACHE 	= 	'inmutable_v1';
 
 //1. Almacenar en el cache
